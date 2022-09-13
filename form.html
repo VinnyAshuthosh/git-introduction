@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            USER FORM
+        </title> 
+        <style type="text/css">
+            label{
+                 width: 100px;
+                 display: inline-block;
+            }
+            #form{
+                border-radius: 10px;
+                background: black;
+                color: white;
+                width: 400px;
+                padding: 5px;
+            }
+            #submit{
+                width: 50%;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="form">
+        <h1>
+            CREATE ACCOUNT 
+        </h1>
+        <form align="center">
+            <label for="name"> First Name</label>
+            <input type="text" name="Firstname"><br><br>
+            <label for="name"> Second Name</label>
+            <input type="text" name="Secondname"><br><br>
+            <label for="name"> Email Address</label>
+            <input required type="text" name="Email"><br><br>
+            <label for="name"> Phone</label>
+            <input type="text" name="Phone"><br><br>
+            <label for="country"> Country</label>
+            <select id ="country">    
+                <option value="country">Select Country</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="uae">UAE</option>
+                <option value="india">INDIA</option>
+            </select><br><br>
+            <input type="radio" name="accept">I accept terms and conditions<br><br>
+            <input type="submit" align="center" name="submit" id="submit">
+        </form>
+      </div>  
+    </body>
+</html>

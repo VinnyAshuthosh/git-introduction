@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>onkeydown/onkeyup</title>
+        <script>
+            function handleOnKeyDown(x){
+                x.style.color = "red";
+                x.style.backgroundColor = "black";
+            }
+            function handleOnKeyUp(x){
+                x.style.color = "black";
+                x.style.backgroundColor = "red";
+            }
+
+        </script>
+    </head>
+    <body>
+        <input type="text" onkeydown="handleOnKeyDown(this)" onkeyup="handleOnKeyUP(this)">
+    </body>
+</html>
